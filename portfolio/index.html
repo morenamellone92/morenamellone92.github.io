@@ -2,10 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Home - Morena Mellone Front End Developer</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/blog.css">
+    <title>Portfolio - Morena Mellone Front End Developer</title>
     <link rel="stylesheet" href="./assets/css/menu.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/portfolio.css">
     <script src="script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,7 +20,7 @@
       <div id="sezioni">
         <!-- id="corrente nei div sotto permetterebbe di aver il menu in stato di verso quando si trova in quella pagina -->
         <a href="index.html"><div class="sezione"><strong>Home</strong></div></a>
-        <a href="portfolio.html"><div class="sezione"><strong>Portfolio</strong></div></a>
+        <a class="page" href="portfolio.html"><div class="sezione"><strong>Portfolio</strong></div></a>
         <a href="blog.html"><div class="sezione"><strong>Blog</strong></div></a>
         <img src="./assets/img/menu.svg" id="iconmenu" onclick="MenuMobile()">
       </div>
@@ -29,7 +29,7 @@
     <div class="mobile_menu" id="mobile_menu">
       <div id="sezioni_mobile">
         <a href="index.html"><div class="sezione_mobile">Home</div></a>
-        <a href="portfolio.html"><div class="sezione_mobile">Portfolio</div></a>
+        <a class="page" href="portfolio.html"><div class="sezione_mobile">Portfolio</div></a>
         <a href="blog.html"><div class="sezione_mobile">Blog</div></a>
         <img id="logo_menu"src="./assets/img/logo_completo.svg" id="logocompleto">
         <div class="immagine" id="icon">
@@ -43,9 +43,9 @@
         </a>
         </div>
         <div class="immagine" id="icon">
-            <a href=”mailto:mmellone92@gmail.com”>
-                <img class="preview" src="./assets/img/email.svg">
-            </a>
+        <a href=”mailto:mmellone92@gmail.com”>
+        <img class="preview" src="./assets/img/email.svg">
+        </a>
         </div>
         <div class="immagine" id="icon">
         <a href="https://github.com/morenamellone92">
@@ -54,19 +54,17 @@
         </div>
         </div>
       </div>
-    </div>
   </header>
     <!-- fine header -->
 
-  <!-- inizio centro pagina -->
-        <div class="div_blog">
-          <div class="div_1_blog">
-            <h1>Il blog di Morena Mellone</h1>
-            <h3>News, consigli ed approfondimenti sullo sviluppo web e sul Web Design</h3>
-          </div>
-          <div class="div_2_blog">
-            <img id="foto_profilo"  src="./assets/img/foto_profilo.png" alt="Contatti">
-            <div class="galleria">
+    <!-- inzio centro pagina -->
+    <div class="div_portfolio">
+      <div class="div_1_portfolio">
+        <h1>Portfolio</h1>
+      </div>
+      <div class="div_2_portfolio">
+        <img id="foto_profilo"  src="./assets/img/foto_profilo.png" alt="Contatti">
+        <div class="galleria">
         <div  class="immagine">
         <a href="https://www.instagram.com/vocali_con_le_ali/">
         <img class="preview" src="./assets/img/instagram.svg">
@@ -88,27 +86,99 @@
         </a>
         </div>
         </div>
-          </div>
-        </div>
-        <!-- inizio centro pagina -->
-        <img id="divisore" class="divisore" src="./assets/img/linea.svg"/>
+      </div>
+    </div>
 
-              <h2 class="h2_category_blog"><i>Sviluppo Web</i></h2>
-
-              <div class="gallery_blog" id="gallery_blog">
-                <div class="articolo_blog">
-                  <figure>
-                  <img src="./assets/img/articolo_1.jpg" alt="Front End Developer">
-                  <a href="article.html"><figcaption><h2><strong>Chi è il Front End Developer?</strong></h2><p>Lo sviluppo di siti web ci permettono di interagire con il mondo intero in qualsiasi campo, dal travel al food, dalla letteratura all'interior design...<br>
-                    <br><i><p id="scopridipiù">scopri di più...</p></i></p>
-                  </figcaption>
-                </a>
-                  </figure>
-                </div>
-              </div>
+    <img id="divisore" class="divisore" src="./assets/img/linea.svg"/>
 
 
-                  <!-- fine centro pagina -->
+    <!-- portfolio -->
+
+
+
+    <div class="container">
+
+      <!-- da aggiungere quando il portfolio diventerà più importante
+      <h3 id="category">web design - graphic design</h3>-->
+      <h2><strong>Web Design</strong></h2>
+      <h3>Giannone Group s.r.l.</h3>
+      <p>web design</p>
+      <div class="container_project">
+        <a href="https://www.giannonegroupsrl.com">
+          <img class="img_project" src="./assets/img/progetti/giannone_web_site.png">
+        </a>
+        <a href="https://www.giannonegroupsrl.com">
+        <img class="img_project" src="./assets/img/progetti/morena_mellone_portfolio_giannone_group_mobile.png">
+      </a>
+      </div>
+
+      <h2><strong>Graphic Design</strong></h2>
+
+      <h3>Ilaria Goldoni</h3>
+      <p>Brand Identity</p>
+    <div class="container_project">
+      <img class="img_project" src="./assets/img/progetti/goldoni_logo.png">
+      <img class="img_project" src="./assets/img/progetti/goldoni_felpa.png">
+    </div>
+
+    <h3>Antonella Marino</h3>
+    <p>logo design</p>
+    <div class="container_project">
+      <img class="img_project" src="./assets/img/progetti/antonella_marino_architetto.jpg">
+      <img class="img_project" src="./assets/img/progetti/antonella_marino_architetto_home.png">
+    </div>
+
+    <h3>HB Animazione</h3>
+    <p>logo design</p>
+    <div class="container_project">
+      <img class="img_project" src="./assets/img/progetti/hb_animazione.jpg">
+      <img class="img_project" src="./assets/img/progetti/hb_animazione2.jpg">
+    </div>
+
+    <h3>Take Off - social media agency</h3>
+    <p>logo design</p>
+    <div class="container_project">
+      <img class="img_project" src="./assets/img/progetti/logo_takeof.jpg">
+      <img class="img_project" src="./assets/img/progetti/agency_take_off.jpg">
+    </div>
+
+    <h3>B-Woman</h3>
+    <p>packaging</p>
+    <div class="container_project">
+      <img class="img_project" src="./assets/img/progetti/cosmetic.png">
+      <img class="img_project" src="./assets/img/progetti/cosmetic_1.png">
+    </div>
+
+    <h3>Birra Morena</h3>
+    <p>packaging</p>
+    <div class="container_project">
+      <img class="img_project" src="./assets/img/birra_morena/birra_morena_bottiglie.png">
+      <img class="img_project" src="./assets/img/birra_morena/birra_morena_lattina.png">
+      <img class="img_project" src="./assets/img/birra_morena/birra_morena_sottobicchiere.png">
+      <img class="img_project" src="./assets/img/birra_morena/birra_morena_confezione_da_3.png">
+    </div>
+
+    <h3>Arte</h3>
+    <p>rivista</p>
+    <div class="container_project">
+      <img class="img_project" src="./assets/img/progetti/rivista.jpg">
+      <img class="img_project" src="./assets/img/progetti/rivista_ipad.jpg">
+    </div>
+
+    <h3>Vogue</h3>
+    <p>rivista</p>
+    <div class="container_project">
+      <img class="img_project" src="./assets/img/progetti/vogue.jpg">
+      <img class="img_project" src="./assets/img/progetti/rivista_interna.jpg">
+    </div>
+
+  </div>
+
+
+
+
+
+          <!-- fine centro pagina -->
                 <!-- inizio footer -->
                 <div class="footer" id="footer">
                   <img src="./assets/img/logo_completo.svg" id="logocompleto">
@@ -125,9 +195,7 @@
                         </a>
                       </div>
                       <div id="social_footer" class="immagine">
-                        <a href=”mailto:mmellone92@gmail.com”>
-                          <img class="preview" src="./assets/img/email.svg">
-                        </a>
+                        <a href="mailto:mmellone92@gmail.com"><img class="preview" src="./assets/img/email.svg"></a></a>
                       </div>
                       <div id="social_footer" class="immagine">
                         <a href="https://github.com/morenamellone92"><img class="preview" src="./assets/img/github.svg"></a>
