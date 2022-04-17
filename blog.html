@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Home - Morena Mellone Front End Developer</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/blog.css">
+    <link rel="stylesheet" href="./assets/css/menu.css">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+    <!-- inizio header -->
+  <body>
+    <header>
+    <div id="menu">
+     <img src="./assets/img/logo.svg" id="logo">
+      <div id="sezioni">
+        <!-- id="corrente nei div sotto permetterebbe di aver il menu in stato di verso quando si trova in quella pagina -->
+        <a href="index.html"><div class="sezione"><strong>Home</strong></div></a>
+        <a href="portfolio.html"><div class="sezione"><strong>Portfolio</strong></div></a>
+        <a href="blog.html"><div class="sezione"><strong>Blog</strong></div></a>
+        <img src="./assets/img/menu.svg" id="iconmenu" onclick="MenuMobile()">
+      </div>
+    </div>
+
+    <div class="mobile_menu" id="mobile_menu">
+      <div id="sezioni_mobile">
+        <a href="index.html"><div class="sezione_mobile">Home</div></a>
+        <a href="portfolio.html"><div class="sezione_mobile">Portfolio</div></a>
+        <a href="blog.html"><div class="sezione_mobile">Blog</div></a>
+        <img id="logo_menu"src="./assets/img/logo_completo.svg" id="logocompleto">
+        <div class="immagine" id="icon">
+        <a href="https://www.instagram.com/vocali_con_le_ali/">
+        <img class="preview" src="./assets/img/instagram.svg">
+        </a>
+        </div>
+        <div class="immagine" id="icon">
+        <a href="https://www.linkedin.com/in/morena-mellone-77301a200">
+        <img class="preview" src="./assets/img/linkedin.svg">
+        </a>
+        </div>
+        <div class="immagine" id="icon">
+            <a href=”mailto:mmellone92@gmail.com”>
+                <img class="preview" src="./assets/img/email.svg">
+            </a>
+        </div>
+        <div class="immagine" id="icon">
+        <a href="https://github.com/morenamellone92">
+          <img class="preview" src="./assets/img/github.svg">
+        </a>
+        </div>
+        </div>
+      </div>
+    </div>
+  </header>
+    <!-- fine header -->
+
+  <!-- inizio centro pagina -->
+        <div class="div_blog">
+          <div class="div_1_blog">
+            <h1>Il blog di Morena Mellone</h1>
+            <h3>News, consigli ed approfondimenti sullo sviluppo web e sul Web Design</h3>
+          </div>
+          <div class="div_2_blog">
+            <img id="foto_profilo"  src="./assets/img/foto_profilo.png" alt="Contatti">
+            <div class="galleria">
+        <div  class="immagine">
+        <a href="https://www.instagram.com/vocali_con_le_ali/">
+        <img class="preview" src="./assets/img/instagram.svg">
+        </a>
+        </div>
+        <div class="immagine">
+        <a href="https://www.linkedin.com/in/morena-mellone-77301a200">
+        <img class="preview" src="./assets/img/linkedin.svg">
+        </a>
+        </div>
+        <div class="immagine">
+        <a href=”mailto:mmellone92@gmail.com”>
+        <img class="preview" src="./assets/img/email.svg">
+        </a>
+        </div>
+        <div class="immagine">
+        <a href="https://github.com/morenamellone92">
+          <img class="preview" src="./assets/img/github.svg">
+        </a>
+        </div>
+        </div>
+          </div>
+        </div>
+        <!-- inizio centro pagina -->
+        <img id="divisore" class="divisore" src="./assets/img/linea.svg"/>
+
+              <h2 class="h2_category_blog"><i>Sviluppo Web</i></h2>
+
+              <div class="gallery_blog" id="gallery_blog">
+                <div class="articolo_blog">
+                  <figure>
+                  <img src="./assets/img/articolo_1.jpg" alt="Front End Developer">
+                  <a href="article.html"></a><figcaption><h2><strong>Chi è il Front End Developer?</strong></h2><p>Lo sviluppo di siti web ci permettono di interagire con il mondo intero in qualsiasi campo, dal travel al food, dalla letteratura all'interior design...<br>
+                    <br><i><p id="scopridipiù">scopri di più...</p></i></p>
+                  </figcaption>
+                </a>
+                  </figure>
+                </div>
+              </div>
+
+
+                  <!-- fine centro pagina -->
+                <!-- inizio footer -->
+                <div class="footer" id="footer">
+                  <img src="./assets/img/logo_completo.svg" id="logocompleto">
+
+                  <div class="galleria">
+                      <div id="social_footer" class="immagine">
+                        <a href="https://www.instagram.com/vocali_con_le_ali/">
+                          <img class="preview" src="./assets/img/instagram.svg">
+                        </a>
+                      </div>
+                      <div id="social_footer" class="immagine">
+                        <a href="https://www.linkedin.com/in/morena-mellone-77301a200">
+                          <img class="preview" src="./assets/img/linkedin.svg">
+                        </a>
+                      </div>
+                      <div id="social_footer" class="immagine">
+                        <a href=”mailto:mmellone92@gmail.com”>
+                          <img class="preview" src="./assets/img/email.svg">
+                        </a>
+                      </div>
+                      <div id="social_footer" class="immagine">
+                        <a href="https://github.com/morenamellone92"><img class="preview" src="./assets/img/github.svg"></a>
+                      </div>
+                    </div>
+                  <p id="testo_footer">© Copyright 2022 - Morena Mellone <br> P.Iva: 01294590770</p>
+                  </div>
+                  <!-- fine footer -->
+                    </body>
+                  </html>

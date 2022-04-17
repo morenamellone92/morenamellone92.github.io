@@ -1,0 +1,369 @@
+h1{
+    position: relative;
+    text-align: center;
+    color: #769293;
+  }
+  
+  #h2_home{
+    margin-top: 15%;
+    transform:  translateY(-50%);
+    color: #769293;
+  }
+  
+  h3{
+    transform: translateY(-50%);
+  }
+  
+   #link_portfolio{
+    margin-top: 12%;
+   
+  }
+
+  #foto_profilo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4% auto 0 auto;
+    width: 33%;
+  }
+  
+  .presentazione{
+    padding-top: 16%;
+  }
+  
+  .banner {
+    text-align: center;
+    display: table;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 5%;
+    margin-top: 10%;
+  }
+  
+  #testo1_banner{
+    font-size: 32px;
+    font-family: 'Comfortaa', cursive;
+    color: #b3535f;
+    margin-bottom: 0px;
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+  
+
+  .skills{
+    width: 80%;
+    margin: 10% auto 5% auto;
+  }
+  
+  .img_skills{
+    width: 20%;
+    margin: 5% 5%;
+  }
+  
+  #testo2_banner{
+    font-family: 'Comfortaa', cursive;
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+  
+  .divbanner {
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%;
+  }
+  
+  #contatti{
+    display: inline;
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  #skills{
+    margin-top: 10%;
+  }
+  
+  .name{
+    font-family: 'Comfortaa', cursive;
+    color: #769293;
+  }
+  
+  #firma{
+    color: #b3535f;
+    font-size: 40px;
+  }
+  
+  .h2_home:before,
+  .h2_home:after {
+    content: '';
+    padding: .9em .4em;
+    position: absolute;
+    left: 50%;
+    width: 15%;
+    top: 50%;
+    display: block;
+    border: 8px solid #b3535f;
+    border-radius: 12px;
+    transform: translateX(-50%) translateY(-50%) rotate(0deg);
+    animation: 10s infinite alternate ease-in-out tipsy;
+  }
+  
+  .h2_home:before {
+    border-color: #b3535f #b3535f rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+    z-index: -1;
+  }
+  
+  .h2_home:after {
+    border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #b3535f #b3535f;
+    box-shadow: 24px 24px 24px rgba(46, 46, 49, .4);
+  }
+  
+  #divisore{
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  #barra{
+    text-align: center;
+    width: 60%;
+    margin: 0 20% 0 20%;
+  }
+  
+  #barrafigure{
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  .container_project{
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .img_project{
+    width: 24%;
+    margin: 2%;
+    border-radius: 8px;
+  }
+  
+  #contatti{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 33%;
+    margin-bottom: 10%;
+    width: 30%;
+  }
+  
+  #contact{
+      margin-top: 10%;
+  }
+  
+  #aboutme{
+    margin-top: 10%;
+  }
+  
+    #gallery_blog{
+      margin: 0 auto 10% auto;
+    }
+  
+  #title_blog{
+    color: black;
+    font-size: 24px;
+  }
+  
+  .p_blog{
+    margin-bottom: 4%;
+    color: #828282;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .gallery_blog{
+  width: 40%;
+  text-align: center;
+  }
+  
+    .articolo_blog{
+      background-color: white;
+    width: 100%;
+    margin: auto auto 10% auto;
+    border: 4px solid #f0f0ef;
+    border-radius: 12px;
+  }
+  
+  figure{
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+  }
+  
+  figure img{
+    width: 100%;
+    margin-bottom: 3%;
+    border-radius: 12px;
+  }
+  
+  figcaption{
+    margin-top: 10%;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  
+  /* responsive design */
+    @media only screen and (max-width: 900px) {
+      .presentazione{
+        padding-top: 20%;
+        padding-bottom: 2%;
+      }
+  
+      #testo2_banner{
+        padding-bottom: 5%;
+      }
+  
+           #foto_profilo{
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             margin: 0 auto;
+             width: 50%;
+           }
+  
+           .gallery_blog{
+             width: 50%;
+             text-align: justify;
+             margin-bottom: 2%;
+             }
+  
+           .galleria{
+               width: 50%;
+               margin: auto;
+           }
+  
+           .immagine{
+             width: 100%;
+             margin: 2% auto;
+           }
+
+               h3{
+                 transform:  translateY(-50%);
+               }
+  
+                   h4{
+                     transform:  translateY(-50%);
+                   }
+  
+                   #link_portfolio{
+                     margin-top: 8%;
+                   }
+  
+      #h2_home{
+        position: relative;
+        margin-top: 15%;
+        font-size: 24px;
+        font-style: normal;
+        transform:  translateY(-50%);
+        color: #769293;
+      }
+  
+      #title_blog{
+        text-align: center;
+        font-size: 18px;
+        color: #000000;
+      }
+  
+      .p_blog{
+        color: #000000;
+        font-size: 16px;
+        text-align: center;
+        margin: 4% auto 4% auto;
+      }
+  
+      #divcontact{
+        margin-bottom: 50px;
+      }
+  
+      #testo1_banner{
+        font-size: 20px;
+      }
+  
+  
+      .divbanner {
+        text-align: center;
+        display: block;
+        width: 100%;
+      }
+  
+      .h2_home:before,
+      .h2_home:after {
+        content: '';
+        padding: .9em .4em;
+        position: absolute;
+        left: 50%;
+        width: 15%;
+        top: 50%;
+        display: block;
+        border: 2px solid #b3535f;
+        border-radius: 8px;
+        transform: translateX(-50%) translateY(-50%) rotate(0deg);
+        animation: 10s infinite alternate ease-in-out tipsy;
+      }
+  
+      .h2_home:before {
+        border-color: #b3535f #b3535f rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+        z-index: -1;
+      }
+  
+      .h2_home:after {
+        border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #b3535f #b3535f;
+        box-shadow: 12px 12px 12px rgba(46, 46, 49, .4);
+      }
+  
+      .img_project{
+        width: 80%;
+      }
+    }
+  /* fine versione mobile */
+  
+  
+    .classmenuimage {
+      width: 300px;
+      height: 300px;
+      animation-duration: 3s;
+      animation-name: rotateimg;
+      animation-iteration-count: infinite;
+    }
+  
+  @keyframes rotateimg {
+    from {transform:rotate(0deg); left:0;}
+   to {transform:rotate(360deg); left:100%;}
+  }
+  
+  
+  @keyframes rotate {
+    0 {
+      transform: translateX(-50%) translateY(-50%) rotate(0deg);
+    }
+    100% {
+      transform: translateX(-50%) translateY(-50%) rotate(360deg);
+    }
+  }
+  
+  @keyframes tipsy {
+    0 {
+      transform: translateX(-50%) translateY(-50%) rotate(0deg);
+    }
+    100% {
+      transform: translateX(-50%) translateY(-50%) rotate(360deg);
+    }
+  }
+  
+          @-webkit-keyframes aitf {
+              0% {
+              background-position: 0% 50%;
+            }
+              100% {
+              background-position: 100% 50%;
+            }
+          }
