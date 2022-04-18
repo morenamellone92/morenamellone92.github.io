@@ -91,7 +91,7 @@ h1{
   
   #firma{
     color: #b3535f;
-    font-size: 40px;
+    font-size: 32px;
   }
   
   .h2_home:before,
@@ -119,9 +119,9 @@ h1{
     box-shadow: 24px 24px 24px rgba(46, 46, 49, .4);
   }
   
-  #divisore{
+  .divisore{
     width: 100%;
-    margin: 0 auto;
+    margin: 2% auto;
   }
   
   #barra{
@@ -231,7 +231,7 @@ h1{
            }
   
            .gallery_blog{
-             width: 50%;
+             width: 80%;
              text-align: justify;
              margin-bottom: 2%;
              }
@@ -287,7 +287,7 @@ h1{
       #testo1_banner{
         font-size: 20px;
       }
-  
+
   
       .divbanner {
         text-align: center;

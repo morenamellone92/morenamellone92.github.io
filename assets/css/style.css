@@ -20,7 +20,6 @@ body{
     }
 
   h3{
-  
     font-family: 'Comfortaa';
     src: url('assets/fonts/Comfortaa-Regular.ttf');
     font-weight: 500;
@@ -32,7 +31,6 @@ body{
   }
   
   h4{
-
     font-family: 'Comfortaa';
     src: url('assets/fonts/Comfortaa-Regular.ttf');
     font-weight: 1000;
@@ -52,6 +50,7 @@ body{
     font-size: 24px;
     text-align: justify;
     margin: 0 4% 1% 4%;
+    line-height: 28px;
   }
   
   .page{
@@ -124,6 +123,7 @@ body{
       p{
         font-size: 16px;
         margin: 10% 4% 0 4%;
+          line-height: 24px;
       }
   
         #firma{
@@ -157,17 +157,6 @@ body{
   
         .button > strong {
          font-size: 16px;
-        }
-        figcaption{
-          margin: 0 auto;
-        }
-  
-        .gallery_blog{
-          margin: 0 auto;
-          width: 80%;
-        }
-        .articolo_blog{
-          width: 100%;
         }
   
         .divisore{

@@ -1,5 +1,6 @@
 html{
     background-attachment: fixed;
+    z-index: -1;
   }
   
   *{
@@ -134,7 +135,6 @@ html{
   
     #footer{
       background: #EEEEEE;
-      position: relative;
       margin-top: 3%;
       padding: 0px;
     }
@@ -220,25 +220,25 @@ html{
   /* footer */
   #footer{
     background: #EEEEEE;
-    position: relative;
     margin-top: 3%;
     padding: 0px;
   }
   
-  #logocompleto{
-    padding-top: 5%;
-    display: table-cell;
-     align-items: center;
-    justify-content: center;
-    width: 40%;
-    margin: 5% auto;
-    text-align: center;
-  }
+ #logocompleto{
+      padding-top: 5%;
+      display: table-cell;
+       align-items: center;
+      justify-content: center;
+      width: 50%;
+      margin: 5% auto;
+      text-align: center;
+    }
   
-  #testo_footer{
-    margin: 5% auto 5% auto;
-    text-align: center;
-    width: 60%;
-    padding-bottom: 3%;
-  }
+  
+    #testo_footer{
+      margin: 5% auto 5% auto;
+      text-align: center;
+      width: 60%;
+      padding-bottom: 3%;
+    }
   

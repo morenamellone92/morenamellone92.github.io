@@ -114,10 +114,18 @@ h2{
       text-align: center;
     }
 
+   .title_article{
+     font-size: 20px;
+     margin: 2% auto;
+   }
+
     h3{
       margin: 0 10%;
       text-align: center;
+    }
 
+    p{
+      margin: 4% 4% 0 4%;
     }
 
       figcaption{
