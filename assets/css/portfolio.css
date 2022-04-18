@@ -11,7 +11,7 @@ h2{
 
 h3{
   text-align: left;
-  margin: 5% 10% 2% 10%;
+  margin: 8% 10% 2% 10%;
 }
 
 p{
@@ -48,16 +48,6 @@ p{
     text-align: right;
   }
   
-  .gallery_blog{
-    /* grandezza box blog */
-    width: 40%;
-    text-align: center;
-    }
-  
-    #gallery_blog{
-      margin: 0 auto 10% auto;
-    }
-  
     .container_project{
       width: 80%;
       margin: 0 auto;
@@ -72,13 +62,17 @@ p{
     }
   
     .container{
-      margin: 0 auto;
+      margin: 0 auto 10% auto;
     }
 
     .divisore{
       width: 100%;
       margin: 4% auto;
     }
+
+   #container_final{
+     margin-bottom: 30%;
+   }
 
 
     @media only screen and (max-width: 900px) {
@@ -127,7 +121,7 @@ p{
     .container_project{
       width: 80%;
       margin: 0 auto;
-      border: 4px solid #efeae4;
+      border: 2px solid #efeae4;
       border-radius: 12px;
     }
         }
