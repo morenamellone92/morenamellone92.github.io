@@ -14,14 +14,14 @@ body{
   
   h2{
     font-family: 'Comfortaa';
-    src: url('assets/fonts/Comfortaa-Regular.ttf');
+    src: url('assets/fonts/Comfortaa-SemiBold.ttf');
     font-weight: 600;
     font-size: 56px;
     }
 
   h3{
     font-family: 'Comfortaa';
-    src: url('assets/fonts/Comfortaa-Regular.ttf');
+    src: url('assets/fonts/Comfortaa-Medium.ttf');
     font-weight: 500;
     font-size: 40px;
     color: #769293;
