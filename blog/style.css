@@ -1,0 +1,206 @@
+h1{
+    margin-left: 10%;
+    text-align: left;
+  }
+  
+  h3{
+    margin-left: 10%;
+    text-align: left;
+  }
+  
+  h2{
+    color: #769293;
+    font-size: 40px;
+    margin-bottom: 2%;
+  }
+  
+    .h2_category_blog{
+      text-align: center;
+      margin: 10% auto 5% auto;
+      color: #b3535f;
+    }
+    
+    .galleria{
+        width: 100%;
+        margin: auto;
+    }
+    
+    .immagine{
+      width: 100%;
+    }
+    
+    figcaption{
+      font-family: 'Cantarell', sans-serif;
+    }
+  
+    p{
+      margin-bottom: 0 auto;
+    }
+    
+    #scopridipiù{
+      font-size: 24px;
+      color: #828282;
+      margin: 0 4%;
+    }
+    
+    .div_blog {
+      padding-top: 16%;
+      display: inline-block;
+      width: 100%;
+    }
+    
+    .div_1_blog {
+      width: 50%;
+      display: table-cell;
+      vertical-align: middle;
+      align-items: flex-end;
+    }
+    
+    .div_2_blog {
+      width: 50%;
+      display: table-cell;
+      vertical-align: middle;
+      margin: 0 auto;
+      align-items: flex-end;
+      justify-content: center;
+    }
+    
+    #foto_profilo{
+      width: 60%;
+      text-align: right;
+    }
+    
+    .gallery_blog{
+      /* grandezza box blog */
+      width: 40%;
+      text-align: center;
+      }
+    
+      #gallery_blog{
+        margin: 0 auto 10% auto;
+      }
+    
+      .articolo_blog{
+        background-color: white;
+        /* SE AGGIUNGEREMO ALTRI ARTICOLI WIDTH DIMINUIRà 0 al 50% per 2 articoli o al 33% per 3 articoli su riga, in modo tale da LASCIARE SPAZIO AGLI ALTRI ARTICOLOI */
+      width: 100%;
+      margin: auto auto 10% auto;
+      border: 4px solid #f0f0ef;
+      border-radius: 12px;
+    }
+    
+    figure{
+      text-align: center;
+      width: 100%;
+      margin: 0px;
+    }
+    
+    figure img{
+      width: 100%;
+      margin-bottom: 3%;
+    }
+  
+      @media only screen and (max-width: 400px){
+        #testo_articolo{
+          text-align: justify;
+          font-size: 16px;
+        }
+      }
+    
+    @media only screen and (max-width: 900px){
+  
+      h1{
+        margin: 0 auto;
+        text-align: center;
+      }
+  
+     .title_article{
+       font-size: 20px;
+       margin: 2% auto;
+     }
+  
+      h3{
+        margin: 0 10%;
+        text-align: center;
+      }
+  
+      p{
+        margin: 4% 4% 0 4%;
+      }
+  
+        figcaption{
+          margin: 3% auto auto auto;
+        }
+  
+        .div_1_blog{
+          /* grandezza box blog */
+          width: 100%;
+          display: block;
+          text-align: center;
+          margin: 0 auto 5% auto;
+          padding-top: 16%;
+          }
+    
+        .div_2_blog {
+          width: 100%;
+          margin: 0 auto;
+          display: block;
+          text-align: center;
+        }
+    
+        .div_blog {
+          padding-left: 0px;
+          padding-right: 0px;
+          padding-top: 16%;
+          width: 100%;
+          text-align: center;
+          margin: 0 auto;
+        }
+    
+        #foto_profilo{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin: 0 auto;
+          width: 50%;
+        }
+    
+        #testo_articolo{
+          font-size: 18px;
+          color: black;
+          margin: 0 4%;
+        }
+    
+        #scopridipiù{
+          font-size: 18px;
+          color: #828282;
+          margin: 1% 4%;
+        }
+    
+        .img_copertina_article{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin: 0 auto;
+          width: 50%;
+        }
+    
+    .articolo_blog{
+        border: 2px solid #f0f0ef;
+        border-radius: 8px;
+    }
+    
+    .gallery_blog{
+      /* grandezza box blog */
+      width: 80%;
+      text-align: center;
+      padding-bottom: 16%;
+      }
+    
+    #firma{
+     color: #b3535f;
+     font-size: 16px;
+    }
+    }
+    
+    

@@ -97,6 +97,12 @@ div.article{
   margin: 0 auto;
 }
 
+.date_post{
+  font-size: 20px;
+  margin: 2% auto;
+  text-align: center;
+}
+
 @media only screen and (max-width: 900px){
 
   h2{
@@ -116,7 +122,7 @@ div.article{
   }
     .date_post{
       font-size: 16px;
-      margin: 2% auto;
+      margin: 4% auto;
       text-align: center;
     }
 

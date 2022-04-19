@@ -220,10 +220,11 @@ html{
   /* footer */
   #footer{
     background: #EEEEEE;
-    margin-top: 3%;
-    padding: 0px;
+      margin-top: 3%;
+      padding: 0px;
   }
-  
+
+
  #logocompleto{
       padding-top: 5%;
       display: table-cell;
