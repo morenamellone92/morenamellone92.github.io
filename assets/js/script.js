@@ -9,19 +9,19 @@ smooth[0].click(function() {
 
 
 function MenuMobile(){
-  var mobile_menu = document.getElementById("mobile_menu");
+  var mobile_menu = document.getElementById("mobile_navbar");
   var iconmenu = document.getElementById("iconmenu");
 
 if(menu == "close"){
   mobile_menu.style.width="100%";
   menu='open';
-  iconmenu.src = "/../../assets/img/menu_close.png";
+  iconmenu.src = "../../assets/img/menu_close.svg";
 }
 
 else
 {
   mobile_menu.style.width="0%";
   menu = "close";
-  iconmenu.src = "../../assets/img/menu.svg";
+  iconmenu.src = "../assets/img/menu.svg";
 }
 }
