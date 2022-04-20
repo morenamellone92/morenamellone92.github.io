@@ -15,7 +15,7 @@ function MenuMobile(){
 if(menu == "close"){
   mobile_menu.style.width="100%";
   menu='open';
-  iconmenu.src = "/../../assets/img/menu_close.svg";
+  iconmenu.src = "/../../assets/img/menu_close.png";
 }
 
 else
