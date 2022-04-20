@@ -42,7 +42,6 @@ h1{
   
   #testo1_banner{
     font-size: 32px;
-    font-family: 'Comfortaa', cursive;
     color: #b3535f;
     margin-bottom: 0px;
     margin-left: 8%;
@@ -61,7 +60,6 @@ h1{
   }
   
   #testo2_banner{
-    font-family: 'Comfortaa', cursive;
     margin-left: 8%;
     margin-right: 8%;
   }
@@ -85,7 +83,6 @@ h1{
   }
   
   .name{
-    font-family: 'Comfortaa', cursive;
     color: #769293;
   }
   
