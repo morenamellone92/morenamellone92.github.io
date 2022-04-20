@@ -15,13 +15,13 @@ function MenuMobile(){
 if(menu == "close"){
   mobile_menu.style.width="100%";
   menu='open';
-  iconmenu.src = "../assets/img/menu_close.svg";
+  iconmenu.src = "../../assets/img/menu_close.svg";
 }
 
 else
 {
   mobile_menu.style.width="0%";
   menu = "close";
-  iconmenu.src = "../assets/img/menu.svg";
+  iconmenu.src = "../../assets/img/menu.svg";
 }
 }
